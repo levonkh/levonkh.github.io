@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bear Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="grid-container">
+        <header >
+            <h1>Bear Gallery</h1>
+            <nav id="nav">
+                <a href="#home" class="navbutton">Home</a>
+                <a href="#about-us" class="navbutton">About Us</a>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="gallery-container">
+                <div class="gallery" id="gallery">
+                </div>
+            </div>
+            <button id="refresh-button">Refresh Gallery</button>
+        </main>
+        
+        <footer>
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </footer>
+    </div>
+</body>
+</html>
